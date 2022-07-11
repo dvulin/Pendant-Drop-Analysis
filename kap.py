@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 # ovo je moja izmjena
 #smajla
 #jope
+#Fire and wind come from the sky, from the gods of the sky! But Crom is your god, Crom and he lives in the earth!
 
 kap = cv2.imread(r'img\kap.png') #ucitavanje slike kapi
 kruznica_kap = kap.copy()
