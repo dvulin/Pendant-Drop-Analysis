@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 # ovo je moja izmjena
+#smajla
 
 kap = cv2.imread(r'C:\Users\karlo\Desktop\kap.png') #ucitavanje slike kapi
 kruznica_kap = kap.copy()
