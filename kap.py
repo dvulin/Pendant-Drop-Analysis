@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 kap = cv2.imread(r'C:\Users\karlo\Desktop\kap.png') #ucitavanje slike kapi
 kruznica_kap = kap.copy()
 kap_bw = cv2.threshold(kap, 128, 255, cv2.THRESH_BINARY)[1] #pretvaranje u crno bijelu sliku
-
+#moja izmjena
 ####
 gray_kap = cv2.cvtColor(kruznica_kap, cv2.COLOR_BGR2GRAY) 
 contura_kap = cv2.Canny(gray_kap, 100, 255)
